@@ -3,9 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="7f1ea606-6ee3-4138-8f17-e24ac56a8b84" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/designPatterns.iml" afterPath="$PROJECT_DIR$/designPatterns.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creationalpatterns/Factory/AboutPage.java" afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/AboutPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creationalpatterns/Factory/Blog.java" afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/Blog.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creationalpatterns/Factory/CartPage.java" afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/CartPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creationalpatterns/Factory/CommentPage.java" afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/CommentPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creationalpatterns/Factory/ContactPage.java" afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/ContactPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creationalpatterns/Factory/FactoryDemo.java" afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/FactoryDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creationalpatterns/Factory/ItemPage.java" afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/ItemPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creationalpatterns/Factory/Page.java" afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/Page.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creationalpatterns/Factory/PostPage.java" afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/PostPage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creationalpatterns/Factory/Shop.java" afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/Shop.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creationalpatterns/Factory/Website.java" afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/Website.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creationalpatterns/Factory/WebsiteFactory.java" afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/WebsiteFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creationalpatterns/Factory/WebsiteType.java" afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/WebsiteType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/creationalpatterns/Factory/readme.md" afterPath="$PROJECT_DIR$/src/creationalpatterns/factory/readme.md" />
     </list>
-    <list id="d4e3970f-5f1f-4333-b7a2-25d00675e305" name="not_commit" comment="" />
+    <list id="d4e3970f-5f1f-4333-b7a2-25d00675e305" name="not_commit" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DesignPatterns.iml" afterPath="$PROJECT_DIR$/DesignPatterns.iml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +35,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="designPatterns.iml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="designPatterns.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/designPatterns.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/creationalpatterns/factory/SearchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutPage.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/creationalpatterns/factory/AboutPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,6 +79,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/designPatterns.iml" />
+        <option value="$PROJECT_DIR$/src/creationalpatterns/factory/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/creationalpatterns/factory/AboutPage.java" />
       </list>
     </option>
   </component>
@@ -116,24 +153,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="creationalpatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="designPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="designPatterns" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="out" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="production" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -538,7 +557,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496938708908</updated>
-      <workItem from="1496938712934" duration="277000" />
+      <workItem from="1496938712934" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="Implement builder,factory,prototype and singleton patterns">
       <created>1496938868904</created>
@@ -554,11 +573,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496938978400</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implement builder,factory,prototype and singleton patterns">
+      <created>1496938993987</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1496938993987</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277000" />
+    <option name="totallyTimeSpent" value="363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -580,7 +606,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Graph Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -615,7 +641,23 @@
     <entry file="file://$PROJECT_DIR$/designPatterns.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creationalpatterns/factory/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creationalpatterns/factory/AboutPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
